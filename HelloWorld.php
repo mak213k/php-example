@@ -12,7 +12,7 @@ class HelloWorld
         $this->pdo = $pdo;
     }
 
-    public function hello($what = 'World123')
+    public function hello($what = 'World')
     {
         $sql = "INSERT INTO hello VALUES (" . $this->pdo->quote($what) . ")";
         $this->pdo->query($sql);
@@ -24,6 +24,6 @@ class HelloWorld
     {
         $sql = "SELECT what FROM hello";
         $stmt = $this->pdo->query($sql);
-        return $stmt->fetchColumn();
+        return $stmt->fetchColumn().'123';
     }
 }
