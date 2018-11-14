@@ -32,3 +32,6 @@ class HelloWorld
         return $result;
     }
 }
+
+$ex = new HelloWorld();
+echo $ex->hello();
