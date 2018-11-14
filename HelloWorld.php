@@ -27,3 +27,5 @@ class HelloWorld
         return $stmt->fetchColumn();
     }
 }
+
+echo "HelloWorld!!!";
