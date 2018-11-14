@@ -33,5 +33,5 @@ class HelloWorld
     }
 }
 
-$ex = new HelloWorld();
+$ex = new HelloWorld($this->pdo);
 echo $ex->hello();
