@@ -12,3 +12,5 @@ In order to run this project just fork it on github.com and then [enable](http:/
 your fork on your [travis-ci profile](http://travis-ci.org/profile). Every push will then trigger a new build on Travis CI.
 
 (Don't forget to update the badge url in the README to point to your own travis project.)
+
+Link do deploy do projeto: https://php-example123.herokuapp.com/HelloWorld.php
