@@ -11,11 +11,6 @@ class HelloWorld
     {
         $this->pdo = $pdo;
     }
-
-    public function show()
-    {
-        echo "Funcionando";
-    }
     
     public function hello($what = 'World')
     {
