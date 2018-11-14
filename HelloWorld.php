@@ -32,7 +32,6 @@ class HelloWorld
         $sql = "SELECT what FROM hello";
         $stmt = $this->pdo->query($sql);
         $result = $stmt->fetchColumn();
-        echo "teste 14/11/2018 as 15:24 2";
         return $result;
     }
 }
